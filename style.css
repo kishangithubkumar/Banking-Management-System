@@ -1,0 +1,110 @@
+/* ===== Base ===== */
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #e3eeff, #f5f7fa);
+  color: #333;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #1f4e79;
+  color: white;
+  text-align: center;
+  padding: 1.2rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ===== Container ===== */
+.container {
+  max-width: 800px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 15px;
+}
+
+/* ===== Card ===== */
+.card {
+  background: white;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  padding: 20px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+}
+
+.card h2 {
+  color: #1f4e79;
+  margin-top: 0;
+}
+
+/* ===== Input & Button ===== */
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 15px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1f4e79;
+  color: white;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+button:hover {
+  background-color: #163b5d;
+}
+
+button.secondary {
+  background-color: #888;
+}
+
+button.secondary:hover {
+  background-color: #666;
+}
+
+.btn-group {
+  display: flex;
+  gap: 10px;
+}
+
+/* ===== Output ===== */
+.output {
+  background: #f6f8fb;
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  font-family: monospace;
+  white-space: pre-wrap;
+  word-break: break-word;
+  border: 1px solid #ddd;
+}
+
+/* ===== Footer ===== */
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+  color: #777;
+  background: #f0f0f0;
+}

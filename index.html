@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Banking Management System</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🏦 Banking Management System</h1>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Create Account</h2>
+      <input type="text" id="accountName" placeholder="Account name" />
+      <input type="number" id="initialBalance" placeholder="Initial balance" />
+      <button onclick="createAccount()">Create Account</button>
+    </section>
+
+    <section class="card">
+      <h2>Deposit / Withdraw</h2>
+      <input type="text" id="accountId" placeholder="Account ID" />
+      <input type="number" id="amount" placeholder="Amount" />
+      <div class="btn-group">
+        <button onclick="deposit()">Deposit</button>
+        <button onclick="withdraw()" class="secondary">Withdraw</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Transfer Funds</h2>
+      <input type="text" id="fromId" placeholder="From Account ID" />
+      <input type="text" id="toId" placeholder="To Account ID" />
+      <input type="number" id="transferAmount" placeholder="Amount" />
+      <button onclick="transfer()">Transfer</button>
+    </section>
+
+    <section class="card">
+      <h2>Accounts Overview</h2>
+      <button onclick="showAccounts()">Show Accounts</button>
+      <div id="output" class="output"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Banking System | Designed by Kishan Kumar</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
