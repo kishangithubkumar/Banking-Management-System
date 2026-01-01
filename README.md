@@ -38,6 +38,50 @@ A Java and web-based Banking Management System
 1. Open `Frontend/index.html` in our browser.
 2. Try out the simulated web version of the system.
 
+## Features:
+👤 Customer creation and management
+💳 Bank account management
+💰 Deposit and withdrawal operations
+🔁 Transaction handling
+⚠️ Custom exception handling:
+Account not found
+Insufficient funds
+Validation errors
+🧠 Input validation logic
+🌐 Simple web-based UI for simulation
+
+## Project Structure:
+Banking-Management-System/
+│
+├── Account.java
+├── AccountNotFoundException.java
+├── AccountRepository.java
+├── BankService.java
+├── Customer.java
+├── CustomerRepository.java
+├── InsufficientFundsException.java
+├── Transaction.java
+├── TransactionRepository.java
+├── Type.java
+├── Validation.java
+├── ValidationException.java
+├── Main.java                # Backend entry point
+│
+├── index.html               # Frontend UI
+├── style.css                # Frontend styling
+├── script.js                # Frontend logic
+│
+└── README.md
+
+## Future Enhancements
+Future Enhancements
+Database integration (MySQL)
+Spring Boot backend
+REST API support
+User authentication
+Transaction history UI
+Deployment on cloud
+
 
    
 
