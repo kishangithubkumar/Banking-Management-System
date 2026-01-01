@@ -7,7 +7,8 @@ A Java and web-based Banking Management System
 
 ---
 ## Screenshots
-https://chatgpt.com/s/m_69568e9252f481918034cc30b050b24f
+<img width="1536" height="1024" alt="Image Jan 1, 2026, 08_47_59 PM" src="https://github.com/user-attachments/assets/15f8dd51-92f1-49b0-b430-cf91a2cf494e" />
+
 
 
 ##  Project Overview
@@ -69,13 +70,13 @@ Banking-Management-System/
 └── README.md
 
 ## Future Enhancements
-Future Enhancements
-Database integration (MySQL)
-Spring Boot backend
-REST API support
-User authentication
-Transaction history UI
-Deployment on cloud
+.Future Enhancements
+.Database integration (MySQL)
+.Spring Boot backend
+.REST API support
+.User authentication
+.Transaction history UI
+.Deployment on cloud
 
 
 
